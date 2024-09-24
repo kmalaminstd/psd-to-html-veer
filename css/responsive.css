@@ -1,0 +1,100 @@
+@media only screen and (max-width: 768px){
+    .banner {
+        padding: 215px 0;
+        font-size: 60px;
+    }
+
+    .about_parts .left {
+        width: 100%;
+    }
+
+    .about_parts .right {
+        margin-top: 20px;
+        width: 100%;
+    }
+
+    .all_services .service_card {
+        width: 50%;
+    }
+
+    .join {
+        padding: 25px 0;
+    }
+}
+
+@media only screen and (max-width: 425px){
+    .banner h1 {
+        font-size: 50px;
+    }
+
+    .all_services .service_card {
+        width: 100%;
+    }
+
+    .all_work .work_card {
+        width: 48%;
+    }
+
+    .counter_flex {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .blog {
+        padding: 90px 0;
+    }
+
+    .blog .card {
+        margin-bottom: 30px;
+        width: 98%;
+    }
+
+    .join_content p {
+        font-size: 20px;
+    }
+
+    .join_content a {
+        padding: 15px 25px;
+    }
+
+    .both_footer_part .left_footer {
+        width: 100%;
+        border-right: 0;
+    }
+
+    .both_footer_part .right_footer {
+        margin-top: 50px;
+        width: 100%;
+    }
+
+    .foot_bottom_text {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 320px){
+    .banner h1 {
+        font-size: 30px;
+    }
+
+    .banner button {
+        padding: 10px 20px;
+    }
+
+    .service {
+        padding-bottom: 90px;
+    }
+
+    .all_work .work_card {
+        width: 98%;
+    }
+
+    .join_content p {
+        font-size: 15px;
+    }
+
+    .join_content a {
+        padding: 9px 15px;
+        font-size: 10px;
+    }
+}

@@ -1,0 +1,489 @@
+/* common css */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: "Poppins", sans-serif;
+}
+
+ol, ul{
+    list-style: none;
+}
+
+img{
+    width: 100%;
+}
+
+button{
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+}
+
+.wrapper{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.common_sec_head{
+    text-align: center;
+}
+
+.common_sec_head h2{
+    color: #252525;
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+p{
+    margin-bottom: 0;
+}
+
+/* common css */
+
+/* nav part css start here */
+
+.navbar{
+    padding: 23px 0;
+}
+
+.nav-link{
+    color: #0e1424;
+    font-weight: 500;
+    font-size: 16px;
+    margin-left: 30px;
+    text-transform: uppercase;
+}
+
+.nav-link:hover{
+    color: #31d7ce;
+}
+
+.nav-link.active{
+    color: #31d7ce;
+}
+
+/* nav part css end here */
+
+/* banner part css start here */
+
+.banner{
+    background-image: url('../image/banner_img.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 315px 0;
+}
+
+.banner h1{
+    color: #31d7ce;
+    text-transform: uppercase;
+    font-size: 70px;
+    margin-bottom: 40px;
+    letter-spacing: 15px;
+}
+
+.banner button{
+    border: 1px solid #d1d1d1;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #31d7ce;
+    padding: 16px 40px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    background-color: transparent;
+    font-weight: 500;
+    transition: 0.3s ease-in-out;
+    -webkit-transition: 0.3s ease-in-out;
+    -moz-transition: 0.3s ease-in-out;
+    -ms-transition: 0.3s ease-in-out;
+    -o-transition: 0.3s ease-in-out;
+}
+
+.banner button:hover{
+    background-color: #31d7ce;
+    color: #0e1424;
+    transition: 0.3 ease-in-out;
+    -webkit-transition: 0.3 ease-in-out;
+    -moz-transition: 0.3 ease-in-out;
+    -ms-transition: 0.3 ease-in-out;
+    -o-transition: 0.3 ease-in-out;
+}
+
+/* banner part css end here */
+
+/* about part css start here */
+
+.about{
+    padding: 140px 15px;
+}
+
+.about_parts{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.about_parts .left{
+    width: 50%;
+    height: auto;
+}
+
+.about_parts .left img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.about_parts .right{
+    width: 50%;
+    padding-left: 45px;
+}
+
+.about_parts .right h3{
+    text-transform: uppercase;
+    font-size: 30px;
+    color: #252525;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+
+.about_parts .right p{
+    color: #2f2f2f;
+    font-weight: 600;
+    font-size: 15px;
+    margin-bottom: 40px;
+}
+
+.about_parts .right button{
+    padding: 10px 25px;
+    background-color: #31d7ce;
+    color: #fff;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    font-size: 12px;
+    border: none;
+}
+
+/* about part css end here */
+
+/* service part css start here */
+
+.service{
+    padding-bottom: 160px;
+}
+
+.all_services{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.all_services .service_card{
+    padding: 50px 35px;
+    width: 30%;
+    cursor: pointer;
+}
+
+.all_services .service_card:hover{
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.438);
+}
+
+.all_services .service_card .service_card_icon{
+    background-color: #24ddb3;
+    color: #fff;
+    font-weight: 100;
+    height: 60px;
+    padding: 15px 25px;
+    margin-right: 15px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.service_card .service_ard_cont h5{
+    color: #444444;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.service_card .service_ard_cont p{
+    color: #555555;
+    font-size: 14px;
+}
+
+/* service part css end here */
+
+/* work part start here */
+
+.work{
+    padding-bottom: 150px;
+}
+
+.all_work{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 60px;
+}
+
+.all_work .work_card{
+    width: 32%;
+    height: 255px;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.all_work .work_card img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.work_card_overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    transform: scale(0);
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    -ms-transform: scale(0);
+    -o-transform: scale(0);
+    transition: 0.3s ease-in-out;
+    -webkit-transition: 0.3s ease-in-out;
+    -moz-transition: 0.3s ease-in-out;
+    -ms-transition: 0.3s ease-in-out;
+    -o-transition: 0.3s ease-in-out;
+}
+
+.all_work .work_card:hover .work_card_overlay{
+    transform: scale(1);
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transition: 0.3s ease-in-out;
+    -webkit-transition: 0.3s ease-in-out;
+    -moz-transition: 0.3s ease-in-out;
+    -ms-transition: 0.3s ease-in-out;
+    -o-transition: 0.3s ease-in-out;
+}
+
+.work_card_overlay a{
+    color: #fff;
+    font-size: 10px;
+    text-transform: uppercase;
+}
+
+/* work part end here */
+
+/* counter part css start here */
+
+.clients_counter{
+    background-image: url('../image/counter_bg_img.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 45px 15px;
+}
+
+.counter_flex{
+    display: flex;
+    justify-content: space-evenly;
+    color: #fff;
+}
+
+.counter-box{
+    text-align: center;
+}
+
+.counter-box .icon{
+    font-size: 30px;
+}
+
+.counter-box h2{
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.counter-box p{
+    color: #d4d4d4;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+/* counter part css end here */
+
+/* blog part css start here */
+
+.blog{
+    padding: 150px 0;
+}
+
+.blog .common_sec_head{
+    margin-bottom: 35px;
+}
+
+.all_blog_card{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.blog .card{
+    border: none;
+    width: 31%;
+}
+
+.blog .card .card-image{
+    height: 275px;
+    width: 100%;
+}
+
+.blog .card .card-image img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.blog .card .card-title{
+    text-transform: uppercase;
+    color: #0e1424;
+    font-size: 18px;
+    margin: 30px 0;
+}
+
+.blog .card .card-text{
+    font-size: 18px;
+    color: #666666;
+    margin-bottom: 30px;
+}
+
+.blog .card a{
+    color: #555555;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+/* blog part css end here */
+
+/* join part css start here */
+
+.join{
+    background-color: #50d18d;
+    padding: 50px 0;
+}
+
+.join_content{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.join_content p{
+    color: #fff;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.join_content a{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 13px;
+    padding: 20px 34px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    background-color: #ffffff49;
+}
+
+/* join part css end here */
+
+/* footer part css start here */
+
+footer{
+    background-color: #000415;
+    padding-top: 110px;
+    padding-bottom: 20px;
+}
+
+.both_footer_part{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.both_footer_part .left_footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    border-right: 1px solid #666666;
+}
+
+.both_footer_part .left_footer_cont img{
+    width: 75px;
+    margin-bottom: 15px;
+}
+
+.left_footer_cont p{
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.both_footer_part .right_footer{
+    width: 50%;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.right_footer .foot_cont{
+    display: flex;
+    gap: 25px;
+    margin-bottom: 35px;
+}
+
+.right_footer .foot_cont p{
+    font-size: 14px;
+}
+
+.foot_bottom_text{
+    text-align: center;
+    color: #818181;
+    font-size: 15px;
+    margin-top: 50px;
+}
+
+/* footer part css start here */
